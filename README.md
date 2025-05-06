@@ -11,13 +11,13 @@ The H-Hope project is focused on vortex induced vibration, but for the sake of c
 
 ### **Power and torque**
 
-From high school physics, we know that torque M and angular frequency ω are related to power P by a well-established relationship.
+From high school physics, we know that torque *M* and angular frequency *ω* are related to power *P* by a well-established relationship.
 
 $$
 P = M \cdot \omega \quad \text{(Eq. 1)}
 $$
 
-We now aim to relate the flow within the turbine machinery to its power and torque. From physics, we know that the net torque on a body equals the rate of change of its angular momentum L. In turbine machinery, we connect the change in angular momentum—associated with the flow velocity v to the shaft torque M For simplicity, we omit vector notation in the following discussion.
+We now aim to relate the flow within the turbine machinery to its power and torque. From physics, we know that the net torque on a body equals the rate of change of its angular momentum *L*. In turbine machinery, we connect the change in angular momentum—associated with the flow velocity *v* to the shaft torque *M* For simplicity, we omit vector notation in the following discussion.
 
 $$
 M = \frac{dL}{dt} = \frac{d(mrv)}{dt} \quad \text{(Eq. 2)}
@@ -41,13 +41,13 @@ $$
 P_{shaft} = \omega \cdot \dot{m} (r_1 c_{u1} - r_2 c_{u2}) \quad \text{(Eq. 5)}
 $$
 
-The Equation 5 for the shaft power can be written instead of with angular velocity ω using the tangential velocity of the runner u1 and u2
+The Equation 5 for the shaft power can be written instead of with angular velocity *ω* using the tangential velocity of the runner *u*<sub>1</sub> and *u*<sub>2</sub>
 
 $$
 P_{shaft} = \dot{m} (u_1 c_{u1} - u_2 c_{u2}) \quad \text{(Eq. 6)}
 $$
 
-In the above two Equations 5 and 6, projection of the absolute velocity c onto circumferential velocity u (also called swirling velocity) is c_u1 for the inlet and c_u2 for the outlet. The Equation  6 above is called the **Euler equation of the turbine machinery**. From the Euler equation, we recognise the following:
+In the above two Equations 5 and 6, projection of the absolute velocity *c* onto circumferential velocity u (also called swirling velocity) is c_u1 for the inlet and c_u2 for the outlet. The Equation  6 above is called the **Euler equation of the turbine machinery**. From the Euler equation, we recognise the following:
  - rotor must rotate to produce useful energy,
  - the more swirl the rotor gets from the fluid, the more energy transfer we have,
  - for large energy transfer, it is useful to change radius (centrifugal machinery, high radius at the inlet, and smaller at the outlet).
